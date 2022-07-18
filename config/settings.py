@@ -25,7 +25,7 @@ SECRET_KEY = "tz7gct5h^yppe^&*o6(2*q9)r=9te%*z94)12*xafyr$2n$mgw"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "appforpostgress.herokuapp.com"]
 
 
 # Application definition
@@ -37,8 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
-	"main"
+    "main",
 ]
 
 MIDDLEWARE = [
