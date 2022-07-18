@@ -1,0 +1,10 @@
+{% extends 'base_hotel.html' %} {% load static %} {% block content %}
+
+<div>
+	<h1>Hello from Home</h1>
+	{% for i in users %}
+	<p>{{i.username}}</p>
+	{%endfor %}
+</div>
+
+{% endblock %}
