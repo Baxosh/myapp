@@ -1,0 +1,16 @@
+.idea
+.venv
+*.pyc
+config/settings_dev.py
+config/settings_prod.py
+.DS_Store
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tags
+pytest.ini
+data
+.env
+vandelay-py.js
+.envrc
+
+
